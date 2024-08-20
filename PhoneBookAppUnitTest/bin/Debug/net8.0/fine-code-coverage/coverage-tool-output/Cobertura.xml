@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.435406698564593" branch-rate="0.3125" lines-covered="91" lines-valid="209" branches-covered="5" branches-valid="16" complexity="51" version="0" timestamp="1724155055">
+  <sources>
+    <source>C:\Users\a886676\</source>
+  </sources>
+  <packages>
+    <package name="PhoneBookApp" line-rate="0.214765100671141" branch-rate="0.166666666666667" complexity="42">
+      <classes>
+        <class name="PhoneBookApp.Controllers.ContactsController" filename="C:\Users\a886676\source\repos\PhoneBookApp\PhoneBookApp\Controllers\ContactsController.cs" line-rate="0.9" branch-rate="0.5" complexity="8">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="5" branch="false" />
+                <line number="14" hits="5" branch="false" />
+                <line number="15" hits="5" branch="false" />
+                <line number="16" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateContact" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteContact" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetContact" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetContacts" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="UpdateContact" signature="()" line-rate="0.625" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="53" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="5" branch="false" />
+            <line number="14" hits="5" branch="false" />
+            <line number="15" hits="5" branch="false" />
+            <line number="16" hits="5" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="PhoneBookApp.Data.PhoneBookContext" filename="C:\Users\a886676\source\repos\PhoneBookApp\PhoneBookApp\Data\PhonebookContext.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Contacts" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="OnModelCreating" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="PhoneBookApp.DTOs.ContactDto" filename="C:\Users\a886676\source\repos\PhoneBookApp\PhoneBookApp\DTOs\ContactDto.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="get_PhoneNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="8" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="9" branch="false" />
+            <line number="6" hits="8" branch="false" />
+            <line number="7" hits="8" branch="false" />
+          </lines>
+        </class>
+        <class name="PhoneBookApp.DTOs.CreateContactDto" filename="C:\Users\a886676\source\repos\PhoneBookApp\PhoneBookApp\DTOs\CreateContactDto.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_PhoneNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="2" branch="false" />
+            <line number="6" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="PhoneBookApp.Middleware.ErrorHandlingMiddleware" filename="C:\Users\a886676\source\repos\PhoneBookApp\PhoneBookApp\Middleware\ErrorHandlingMiddleware.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="HandleExceptionAsync" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+                <line number="39" hits="0" branch="false" />
+                <line number="40" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="InvokeAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="28" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="PhoneBookApp.Middleware.ErrorResponse" filename="C:\Users\a886676\source\repos\PhoneBookApp\PhoneBookApp\Middleware\ErrorHandlingMiddleware.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_StatusCode" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Message" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="46" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="ToString" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="PhoneBookApp.Models.Contact" filename="C:\Users\a886676\source\repos\PhoneBookApp\PhoneBookApp\Models\Contact.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_PhoneNumber" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="false" />
+            <line number="6" hits="0" branch="false" />
+            <line number="7" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="PhoneBookApp.Repositories.ContactRepository" filename="C:\Users\a886676\source\repos\PhoneBookApp\PhoneBookApp\Repositories\ContactRepository.cs" line-rate="0" branch-rate="0" complexity="7">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteAsync" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetByIdAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="UpdateAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="PhoneBookApp.Services.ContactService" filename="C:\Users\a886676\source\repos\PhoneBookApp\PhoneBookApp\Services\ContactService.cs" line-rate="0" branch-rate="0" complexity="8">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateContactAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteContactAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+                <line number="49" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllContactsAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetContactByIdAsync" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="UpdateContactAsync" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+                <line number="39" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="39" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Program" filename="C:\Users\a886676\source\repos\PhoneBookApp\PhoneBookApp\Program.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="&lt;Main&gt;$" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="9" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="29" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="39" hits="0" branch="false" />
+                <line number="40" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="29" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="PhoneBookAppUnitTest" line-rate="0.983333333333333" branch-rate="0.75" complexity="9">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\a886676\.nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="PhoneBookApp.Tests.ContactsControllerTests" filename="C:\Users\a886676\source\repos\PhoneBookApp\PhoneBookAppUnitTest\PhoneBookAppUnitTest.cs" line-rate="1" branch-rate="0.75" complexity="8">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="5" branch="false" />
+                <line number="19" hits="5" branch="false" />
+                <line number="20" hits="5" branch="false" />
+                <line number="21" hits="5" branch="false" />
+                <line number="22" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateContact_ValidContactDto_CreatesNewContact" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="68" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="76" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="80" hits="1" branch="false" />
+                <line number="81" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+                <line number="83" hits="1" branch="false" />
+                <line number="84" hits="1" branch="false" />
+                <line number="85" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteContact_ExistingContactId_RemovesContact" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="105" hits="1" branch="false" />
+                <line number="107" hits="1" branch="false" />
+                <line number="108" hits="1" branch="false" />
+                <line number="111" hits="1" branch="false" />
+                <line number="114" hits="1" branch="false" />
+                <line number="115" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="116" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetContact_ContactExists_ReturnsContact" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="48" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetContacts_AllContactsExist_ReturnsAllContacts" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="UpdateContact_ExistingContactId_UpdatesContact" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="89" hits="1" branch="false" />
+                <line number="91" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
+                <line number="93" hits="1" branch="false" />
+                <line number="96" hits="1" branch="false" />
+                <line number="99" hits="1" branch="false" />
+                <line number="100" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="101" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="5" branch="false" />
+            <line number="19" hits="5" branch="false" />
+            <line number="20" hits="5" branch="false" />
+            <line number="21" hits="5" branch="false" />
+            <line number="22" hits="5" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="80" hits="1" branch="false" />
+            <line number="81" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="83" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="89" hits="1" branch="false" />
+            <line number="91" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="93" hits="1" branch="false" />
+            <line number="96" hits="1" branch="false" />
+            <line number="99" hits="1" branch="false" />
+            <line number="100" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="101" hits="1" branch="false" />
+            <line number="105" hits="1" branch="false" />
+            <line number="107" hits="1" branch="false" />
+            <line number="108" hits="1" branch="false" />
+            <line number="111" hits="1" branch="false" />
+            <line number="114" hits="1" branch="false" />
+            <line number="115" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="116" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
